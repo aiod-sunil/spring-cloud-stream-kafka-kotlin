@@ -9,8 +9,14 @@ class SpringCloudFunctionApplication {
 
 	@Bean
 	 fun kotlinConsumer(): (String) -> Unit {
-		return { "sunil".toUpperCase() }
+		return {
+			println(it.toUpperCase())
+			}
 	}
+//	@Bean
+//	 fun transform(): (String) -> String {
+//		return { "How are you ".plus(it) }
+//	}
 }
 
 fun main(args:Array<String>) {
