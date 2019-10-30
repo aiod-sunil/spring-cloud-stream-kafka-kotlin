@@ -16,7 +16,7 @@ repositories {
 	maven { url = uri("https://repo.spring.io/milestone") }
 }
 
-val springCloudVersion = "Hoxton.M3"
+val springCloudVersion = "Hoxton.RC1"
 
 dependencies {
 

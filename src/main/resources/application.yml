@@ -4,5 +4,8 @@ spring:
       bindings:
         kotlinConsumer-in-0:
           destination: input
+      function:
+        definition: kotlinConsumer
+
 server:
   port: 0
