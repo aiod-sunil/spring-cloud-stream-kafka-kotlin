@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        kotlinConsumer-in-0:
+          destination: input
